@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       restorationScopeId: 'app',
       // * The home page of the app
       home: const ProductsListScreen(),
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
         primarySwatch: Colors.grey,
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.black87,
+          backgroundColor: Colors.deepPurple,
           foregroundColor: Colors.white,
           elevation: 0,
         ),
