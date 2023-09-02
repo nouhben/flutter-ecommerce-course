@@ -12,6 +12,7 @@ void main() async {
   runApp(const MyApp());
 }
 
+//flutter attach --host-vmservice-port 57286
 void registerErrorHandlers() {
   // * Show some error UI if any uncaught exception happens
   FlutterError.onError = (FlutterErrorDetails details) {
